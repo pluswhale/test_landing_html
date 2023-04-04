@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    position: relative;
+    margin: 0 auto;
+    background-color: black;
+    background: url("../assets/img/header/2.png"), black;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+    
+img{
+    margin: 0;
+}
+
+div{
+    padding: 0;
+    margin: 0;
+}
+    
+
+*,
+*:before
+*:after{
+    box-sizing: border-box;
+}
+

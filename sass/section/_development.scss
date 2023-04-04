@@ -1,0 +1,118 @@
+.develop{
+    position: relative;
+    width: 100%;
+    
+}
+
+.container_develop{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 1460px;
+    margin: 0 auto;
+    margin-bottom: 359px;
+}
+
+.develop_title{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 638px;
+    padding-left: 147px;
+    margin-bottom: 54px;
+}
+
+
+.develop_title>h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100px;
+
+    color: #FFFFFF;
+}
+
+.develop_screens{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 17px;
+}
+
+.block_screens{
+    display: flex;
+    flex-direction: column;
+    width: 226px;
+}
+
+.screen_img{
+    margin-top: 97px;
+}
+
+.block_screens{
+    margin-top: 20px;
+    height: 260px;
+}
+
+.block_screen_img{
+    margin-bottom: 30px;
+}
+
+.block_keyboard{
+    position: absolute;
+    top: 655px;
+    left: 0;  
+}
+
+.keyboard_content{
+    display: flex;
+}
+
+
+.keyboard_content_inf{
+    display: flex;
+    flex-direction: column;
+    margin-left: 31px;
+    width: 466px;
+    margin-top: 49px;
+}
+
+.keyboard_content_inf>p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    
+    letter-spacing: -0.01em;
+    
+    color: #E0E0E2;;
+}
+
+.keyboard_button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+
+    background: #2A2B3A;
+    border: 1px solid #2A2B3A;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    
+    width: 312px;
+    height: 50px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+
+.keyboard_button:hover{
+    transition: all 0.2s;
+    background: #9747FF;
+}
+

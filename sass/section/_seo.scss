@@ -1,0 +1,345 @@
+.seob{
+    width: 100%;
+    margin-bottom: 119px;
+}
+
+.container_seo{
+    display: flex;
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.seo_title{
+    display: flex;
+    width: 638px;
+    margin-bottom: 49px;
+}
+
+
+.seo_title>h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100px;
+    color: #FFFFFF;
+} 
+
+.seo_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1160px;
+    height: 70px;
+    margin-bottom: 46px;
+}
+
+.seo_menu_inf{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 487px;
+    height: 60px;
+
+    background: #000000;
+
+    border: 1px solid #2A2B3A;
+    border-radius: 8px;
+}
+
+.seo_menu_inf>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #9E9EAC;
+    transition: linear 0.3s;
+    width: 150px;
+    height: 44px;
+}
+
+.seo_menu_inf>p:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2A2B3A;
+    transition: linear 0.2s;
+
+  
+    border-radius: 4px;
+    color: white;
+    width: 150px;
+    height: 44px;
+}
+
+.seo_menu_view{
+    display: flex;
+    justify-content: space-between;
+    width: 184px;
+}
+
+.view_border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 44px;
+
+    background: #000000;
+    border: 1px solid #2A2B3A;
+
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
+.seo_cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 52px;
+}
+
+.seo_card_content{
+    width: 367px;
+    height: 426px;
+    left: calc(50% - 367px/2 - 396.5px);
+    top: 0px;
+
+    border: 1px solid #2A2B3A;
+    border-radius: 8px;
+}
+
+.card_country{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #2A2B3A;
+}
+
+.flag{
+    display: flex;
+    align-items: center;
+    width: 217px;
+}
+
+.country_name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+
+    text-align: center;
+
+    color: #9E9EAC;
+    margin-left: 16px;
+}
+
+.flag_arrow{
+    height: 40px;
+    margin-left: 5px;
+}
+
+.flag_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 3px 12px;
+    gap: 8px;
+
+    background: #361E54;
+    border-radius: 16px;
+}
+
+.flag_button>a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    text-align: center;
+
+    color: #9747FF;
+}
+
+.uk{
+    background: #131F31;
+}
+
+.uk>a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    text-align: center;
+    color: #175CD3;
+}
+
+.can{
+    background: #31132E;
+}
+
+.can>a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    text-align: center;
+
+    color: #C11574;
+}
+
+
+.usa_shedule{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 100%;
+    height: 204px;
+    border-bottom: 1px solid #2A2B3A;
+    background-image: url("../assets/img/seo/country/vector/vec-1.png");
+    background-repeat: no-repeat;
+}
+
+.uk_shedule{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 100%;
+    height: 204px;
+    border-bottom: 1px solid #2A2B3A;
+    background-image: url("../assets/img/seo/country/vector/vec-2.png");
+    background-repeat: no-repeat;
+}
+
+.can_shedule{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 100%;
+    height: 204px;
+    border-bottom: 1px solid #2A2B3A;
+    background-image: url("../assets/img/seo/country/vector/vec-3.png");
+    background-repeat: no-repeat;
+}
+
+.shedile_indicators{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.indicators_name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #9E9EAC;
+}
+
+.indicators_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.indicators_kd{
+    text-align: center;
+    margin: 0 70px 0 56px;
+}
+
+.card_contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 137px;
+}
+
+.card_contact>p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: #9E9EAC;
+    margin-bottom: 20px;
+}
+
+.contact_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 312px;
+    height: 50px;
+
+    border: 1px solid #2A2B3A;
+    border-radius: 8px;
+    background: #2A2B3A;
+    
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    color: #FFFFFF;
+}
+
+.contact_button:hover{
+    background: #9747FF;
+    transition: all 0.2s;
+}
+
+.arrow_slide{
+    display: flex;
+    justify-content: space-between;
+    width: 144px;
+}
+
+.decor_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+
+    border: 1px solid #2A2B3A;
+    border-radius: 28px;
+    color: #9E9EAC;
+}
+
+.decor_button:hover{
+    background: #2A2B3A;
+    transition: all 0.2s;
+    color: white;
+}

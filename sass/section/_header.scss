@@ -1,0 +1,50 @@
+
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1294px;
+    height: 70px;
+    z-index: 1;
+}
+
+.header_logo{
+    display: block;
+    max-width: 135px;
+    margin-left: 139px;
+}
+
+.header_menu{
+    display: flex;
+}
+
+.menu_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    width: 520px;
+}
+
+.menu_list_item{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+    cursor: pointer;
+} 
+
+.menu_list_item:hover{
+    color: #9747FF;
+    transition: all 0.1s ;
+}
